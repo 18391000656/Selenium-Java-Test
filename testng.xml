@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" thread-count="2" parallel="classes">
+    <test name="Selenium">
+        <classes>
+            <class name="com.meyoung.day1.TestNgDemo1">
+                <methods>
+                    <exclude name="getTest"/>
+                </methods>
+            </class>
+            <class name="com.meyoung.day1.TestNgDemo2">
+            </class>
+        </classes>
+    </test>
+</suite>
